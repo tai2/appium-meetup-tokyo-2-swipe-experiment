@@ -1,0 +1,14 @@
+{
+  "name": "appium-swipe-experiment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:appium": "appium --base-path /wd/hub"
+  },
+  "dependencies": {
+    "appium": "^2.18.0",
+    "appium-xcuitest-driver": "^9.2.5",
+    "webdriverio": "^9.14.0"
+  }
+}
