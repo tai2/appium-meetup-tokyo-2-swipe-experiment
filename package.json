@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start:appium": "appium --base-path /wd/hub"
+    "start:appium": "appium --base-path /wd/hub",
+    "test": "node test.mjs"
   },
   "dependencies": {
     "appium": "^2.18.0",
